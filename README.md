@@ -1,6 +1,8 @@
 hazelcast-poc
 =============
 
+An example of using Hazelcast semaphore type
+
 Prerequisites
 -------------
 
@@ -14,5 +16,5 @@ Building
 Running
 -------
 
-`cd target`
-`java -jar hazelcast-poc.jar`
+`cd target
+java -jar hazelcast-poc.jar`
