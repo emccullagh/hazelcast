@@ -7,6 +7,12 @@
     <groupId>hazelcast-poc</groupId>
     <artifactId>hazelcast-poc</artifactId>
     <version>1.0-SNAPSHOT</version>
+         
+    <properties>
+        <sonar.projectKey>emccullagh_hazelcast</sonar.projectKey>
+        <sonar.organization>emccullagh</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    </properties>     
 
     <build>
         <finalName>${project.artifactId}</finalName>
