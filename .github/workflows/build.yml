@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     name: Build
-    runs-on: [self-hosted, fargate]
+    runs-on: [self-hosted, lambda]
     steps:
       - uses: actions/checkout@v2
         with:
